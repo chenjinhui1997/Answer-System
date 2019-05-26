@@ -1,0 +1,24 @@
+<view class='content'>
+  <view class='account'>
+    <view class='title'>账号</view>
+    <view class='num'>
+      <input value='{{userInfo.nickName}}' bindinput='usernameInput'  placeholder='不填默认为原用户名'></input>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='account'>
+    <view class='title'>密码</view>
+    <view class='num'>
+      <input value='{{password}}' bindinput='passwordInput1' placeholder='不填默认为原密码'></input>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='account'>
+    <view class='title'>验证</view>
+    <view class='num'>
+      <input value='{{password}}' bindinput='passwordInput2' placeholder='不填默认为原密码'></input>
+    </view>
+  </view>
+  <view class='hr'></view>
+</view>
+<button class='btn'  bindtap='update' type='{{btnstate}}' disabled='{{disabled}}'>更新数据</button>

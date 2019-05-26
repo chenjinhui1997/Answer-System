@@ -1,0 +1,17 @@
+/* pages/commonquestion/commonquestion.wxss */
+page {
+  height: 100%;
+  background: linear-gradient(#52dbf3,rgb(150, 243, 212),#FFFFFF);
+}
+.hr{
+background-color: gainsboro;
+width: 90%;
+height: 2rpx;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-left: 5%;
+}
+.text{
+  margin-left: 2%;
+
+}

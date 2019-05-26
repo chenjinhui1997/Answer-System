@@ -1,0 +1,16 @@
+<!--pages/setup/setup.wxml-->
+<view class='option' bindtap='toMyError'>
+  <text>我的错题</text>
+  <view class='arrow'></view>
+</view>
+<view class='hr'></view>
+<view class='option' bindtap='toSetUp'>
+  <text>设置中心</text>
+  <view class='arrow'></view>
+</view>
+<view class='hr'></view>
+<view class='option' bindtap='toCommonQuestion'>
+  <text>常见问题</text>
+  <view class='arrow'></view>
+</view>
+<view class='hr'></view>

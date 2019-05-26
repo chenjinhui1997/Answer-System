@@ -1,0 +1,13 @@
+<view  class="page">
+<scroll-view>
+  <view class="timu">{{index+1}}.{{myContent[index].question}}</view>
+</scroll-view>
+<scroll-view style="height: 600rpx; margin-top: 50rpx;">
+  <button id='A' class="answer" bindtap="btnOpClick" style="background-color: {{bcA}};">A.{{myContent[index].contentA}}</button>
+  <button id='B' class="answer" bindtap="btnOpClick" style="background-color: {{bcB}};">B.{{myContent[index].contentB}}</button>
+  <button id='C' class="answer" bindtap="btnOpClick" style="background-color: {{bcC}};">C.{{myContent[index].contentC}}</button>
+  <button id='D' class="answer" bindtap="btnOpClick" style="background-color: {{bcD}};">D.{{myContent[index].contentD}}</button>
+</scroll-view>
+</view>
+<text class="jifen">积分：每答对一题积10分，目前得分{{score}}</text>
+<view class='mask' hidden='{{maskFlag}}'></view>

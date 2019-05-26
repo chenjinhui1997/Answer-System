@@ -1,0 +1,14 @@
+page {
+  height: 100%;
+  background: linear-gradient(#52dbf3,rgb(150, 243, 212),#FFFFFF);
+}
+
+.page {
+  height: 900rpx;
+  margin: 15rpx 15rpx 70rpx 15rpx;
+  position: relative;
+  z-index: 2;
+}
+.text{
+  text-align: center
+}

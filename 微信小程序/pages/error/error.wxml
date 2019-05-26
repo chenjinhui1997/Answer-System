@@ -1,0 +1,18 @@
+<!--pages/error/error.wxml-->
+<view class="page">
+  <scroll-view>
+    <view class="question">{{index+1}}.{{myContent[index].question}}</view>
+  </scroll-view>
+  <scroll-view style="height: 600rpx; margin-top: 50rpx;">
+    <button id='A' class="answer" style="background-color: {{bcA}};">A.{{myContent[index].contentA}}</button>
+    <button id='B' class="answer" style="background-color: {{bcB}};">B.{{myContent[index].contentB}}</button>
+    <button id='C' class="answer" style="background-color: {{bcC}};">C.{{myContent[index].contentC}}</button>
+    <button id='D' class="answer" style="background-color: {{bcD}};">D.{{myContent[index].contentD}}</button>
+  </scroll-view>
+  <view class="button">
+    <button bindtap="lastQuestion" style='width:100px'>上一题</button>
+    <button bindtap='showAnswer'>显示答案</button>
+    <button bindtap="nextQuestion" style='width:100px'>下一题</button>
+  </view>
+  <button class="delete" bindtap='delete'>移除本题</button>
+</view>

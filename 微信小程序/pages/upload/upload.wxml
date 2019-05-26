@@ -1,0 +1,24 @@
+<!--pages/upload/upload.wxml-->
+<view class='question'>
+  <text>题目</text>
+  <input placeholder='请输入您的题目' bindinput='ques'></input>
+</view>
+<view class='hr'></view>
+<view class='answer'>
+<text>答案</text>
+  <input placeholder='请输入答案' bindinput='ans'></input>
+</view>
+<view class='hr'></view>
+<view class='text'>
+  <text>选项</text>
+</view>
+<view class='content'>
+  <input id='A' placeholder='A' bindinput='A'></input>
+  <input id='B' placeholder='B' bindinput='B'></input>
+</view>
+<view class='content'>
+  <input id='C' placeholder='C' bindinput='C'></input>
+  <input id='D' placeholder='D' bindinput='D'></input>
+</view>
+<view class='hr'></view>
+<button bindtap='upload' type='primary'>上传题目</button>

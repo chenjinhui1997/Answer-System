@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/user/user",
+    "pages/test/test",
+    "pages/authorize/authorize",
+    "pages/test2/test2",
+    "pages/test3/test3",
+    "pages/result/result",
+    "pages/error/error",
+    "pages/result2/result2",
+    "pages/result3/result3",
+    "pages/error_text/error_text",
+    "pages/noerror/noerror",
+    "pages/commonquestion/commonquestion",
+    "pages/setup/setup",
+    "pages/edit/edit",
+    "pages/upload/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#52dbf3",
+    "navigationBarTitleText": "用户登录",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/答题中心1.png",
+        "selectedIconPath": "images/答题中心.png",
+        "text": "答题中心"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/个人中心1.png",
+        "selectedIconPath": "images/个人中心.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

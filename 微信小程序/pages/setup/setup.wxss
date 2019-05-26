@@ -1,0 +1,27 @@
+/* pages/setup/setup.wxss */.option{
+  display: flex;
+  flex-direction: row;
+  height: 8%;
+}
+text{
+  margin-left: 1.8%;
+}
+
+.hr{
+background-color: gainsboro;
+width: 90%;
+height: 2rpx;
+margin-bottom: 4.5%;
+margin-left: 5%;
+}
+.arrow{
+width: 20rpx;
+height: 20rpx;
+border-top: 2px solid #999;
+border-right: 2px solid #999; 
+position: absolute;
+right: 20rpx;
+transform: rotate(45deg);
+margin-top:14rpx;
+margin-right: 5%;
+}

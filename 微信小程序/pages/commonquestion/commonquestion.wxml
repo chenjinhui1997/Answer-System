@@ -1,0 +1,12 @@
+<!--pages/commonquestion/commonquestion.wxml-->
+<view class='text'>
+  <text>1.更新用户名、密码后请重新登录。</text>
+</view>
+<view class='hr'></view>
+<view class='text'>
+  <text>2.没有错题时，请先添加错题，否则不能使用错题考试、错题记录。</text>
+</view>
+<view class='hr'></view>
+<view class='text'>
+  <text>3.每次答题数均为10题，若错题考试中错题记录不足10题，也按10题计算。</text>
+</view>

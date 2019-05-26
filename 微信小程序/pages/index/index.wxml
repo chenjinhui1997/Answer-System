@@ -1,0 +1,29 @@
+<view class='contain'>
+  <swiper class='adv' indicator-dots='true' autoplay='true' interval='4000'>
+    <swiper-item>
+      <image src='../../images/adv3.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/adv2.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='../../images/adv1.jpg'></image>
+    </swiper-item>
+  </swiper>
+  <view class='module' bindtap='click'>
+    <image src='../../images/语文.png'></image>
+    <text>语文广场</text>
+  </view>
+  <view class='module' bindtap='click2'>
+    <image src='../../images/数学.png'></image>
+    <text>数学王国</text>
+  </view>
+  <view class='module' bindtap='click3'>
+    <image src='../../images/英语.png'></image>
+    <text>英语天地</text>
+  </view>
+  <view class='module' bindtap='click4'>
+    <image src='../../images/错题本.png'></image>
+    <text>错题考试</text>
+  </view>
+</view>
